@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-image:url("../img/Explorer background.jpg");
+}
+
+/*设置logo和导航栏为单行显示*/
+.special1{
+    display:inline-block;
+}
+
+/*设置图片位置*/
+.header-logo{
+    margin:50px 200px 100px 200px;
+}
+
+/*logo大小设置*/
+.header-logo>a>img{
+    width:110px;
+    height:92px;
+}
+
+/*设置导航栏为单行显示*/
+.header-navigationbar>ul>li{
+    display:inline;
+}
+
+/*设置分隔符*/
+.header-navigationbar>ul>li>a:not(.except1){
+    border-right:1px solid #ccc;
+
+}
+/*设置导航栏中的文字属性*/
+.header-navigationbar>ul>li>a{
+    color:white;
+    font-size:23px;
+    text-decoration:none;
+    padding:0px 30px 0px 30px
+}
+
+.header-navigationbar>ul>li>a:hover{
+    background-color:#0b3d91;
+}

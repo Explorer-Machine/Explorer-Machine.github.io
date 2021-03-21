@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.main>p{
+    color:white;
+}
+
+#para:first-letter{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.main>iframe{
+    width:500px;
+    height:600px;
+}
+
+.special2{
+    float:left;
+    margin:0 auto;
+}
